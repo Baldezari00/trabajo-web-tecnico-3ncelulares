@@ -652,10 +652,10 @@ if (marcaContactSelect && marcaContactOtra) {
 // ========================================
 
 const EMAILJS_CONFIG = {
-    publicKey: 'YzQVxS-7kuYTarZ40',
-    serviceId: 'service_wd0cm2m',
-    templateIdQuick: 'template_fmk3hji',
-    templateIdContact: 'template_x2jhkxg'
+    publicKey: 'ZkcqPZTA0qAc_Ix5Q',
+    serviceId: 'service_tm5prin',
+    templateIdQuick: 'template_30c8b7q',
+    templateIdContact: 'template_e6fne7l'
 };
 
 // Cargar EmailJS library
