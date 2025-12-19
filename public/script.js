@@ -497,7 +497,7 @@ const body = document.body;
 const savedTheme = localStorage.getItem('theme') || 'blue';
 currentThemeIndex = themes.indexOf(savedTheme);
 body.setAttribute('data-theme', savedTheme);
-
+/*
 // Cambiar tema con animación
 themeSwitcher.addEventListener('click', () => {
     currentThemeIndex = (currentThemeIndex + 1) % themes.length;
@@ -516,7 +516,7 @@ themeSwitcher.addEventListener('click', () => {
     };
     showToast(`Tema cambiado a: ${themeNames[newTheme]}`);
 });
-
+*/
 // ========================================
 // MENÚ MÓVIL
 // ========================================
