@@ -116,50 +116,51 @@
     </section>
 
     <!-- FORMULARIO RÁPIDO -->
-    <section class="quick-form" id="presupuesto" data-aos="fade-up" data-aos-delay="100">
-        <div class="container">
-            <div class="form-card">
-                <h3>CONSEGUÍ TU PRESUPUESTO EN EL ACTO</h3>
-                <form class="quick-form-inline" id="quickForm">
-                    <select name="dispositivo" id="dispositivoSelect" required>
-                        <option value="">Tipo de dispositivo</option>
-                        <option value="Celular">Celular</option>
-                        <option value="Notebook">Notebook</option>
-                        <option value="PC">PC</option>
-                        <option value="Heladera">Heladera</option>
-                        <option value="Aire Acondicionado">Aire Acondicionado</option>
-                        <option value="Lavarropas">Lavarropas</option>
-                        <option value="Otro">Otro</option>
-                    </select>
-                    
-                    <input type="text" id="dispositivoOtro" name="dispositivoOtro" placeholder="¿Qué dispositivo?" style="display: none;">
-                    
-                    <select name="marca" id="marcaSelect" required>
-                        <option value="">Marca</option>
-                        <option value="Samsung">Samsung</option>
-                        <option value="iPhone">iPhone</option>
-                        <option value="Motorola">Motorola</option>
-                        <option value="HP">HP</option>
-                        <option value="Dell">Dell</option>
-                        <option value="Lenovo">Lenovo</option>
-                        <option value="LG">LG</option>
-                        <option value="Whirlpool">Whirlpool</option>
-                        <option value="Otra">Otra</option>
-                    </select>
-                    
-                    <input type="text" id="marcaOtra" name="marcaOtra" placeholder="¿Qué marca?" style="display: none;">
-                    
-                    <input type="text" name="problema" placeholder="Ej: pantalla rota, no enciende..." required>
-                    
-                    <input type="email" name="email" placeholder="Tu email" required>
-                    
-                    <button type="submit" class="btn btn-primary">ENVIAR</button>
-                </form>
-                <p class="form-footer">También podés llamarnos o escribirnos por WhatsApp al (0223) 622-4466</p>
-            </div>
+   <section class="quick-form" id="presupuesto" data-aos="fade-up" data-aos-delay="100">
+    <div class="container">
+        <div class="form-card">
+            <h3>CONSEGUÍ TU PRESUPUESTO EN EL ACTO</h3>
+            <form class="quick-form-inline" id="quickForm">
+                <select name="dispositivo" id="dispositivoSelect" required>
+                    <option value="">Tipo de dispositivo</option>
+                    <option value="Celular">Celular</option>
+                    <option value="Notebook">Notebook</option>
+                    <option value="PC">PC</option>
+                    <option value="Heladera">Heladera</option>
+                    <option value="Aire Acondicionado">Aire Acondicionado</option>
+                    <option value="Lavarropas">Lavarropas</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                
+                <input type="text" id="dispositivoOtro" name="dispositivoOtro" placeholder="¿Qué dispositivo?" style="display: none;">
+                
+                <select name="marca" id="marcaSelect" required>
+                    <option value="">Marca</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="iPhone">iPhone</option>
+                    <option value="Motorola">Motorola</option>
+                    <option value="HP">HP</option>
+                    <option value="Dell">Dell</option>
+                    <option value="Lenovo">Lenovo</option>
+                    <option value="LG">LG</option>
+                    <option value="Whirlpool">Whirlpool</option>
+                    <option value="Otra">Otra</option>
+                </select>
+                
+                <input type="text" id="marcaOtra" name="marcaOtra" placeholder="¿Qué marca?" style="display: none;">
+                
+                <input type="text" name="modelo" placeholder="Modelo (ej: Galaxy S21, Pavilion 15)" required>
+                
+                <input type="text" name="problema" placeholder="Ej: pantalla rota, no enciende..." required>
+                
+                <input type="email" name="email" placeholder="Tu email" required>
+                
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
+            </form>
+            <p class="form-footer">También podés llamarnos o escribirnos por WhatsApp al (0223) 622-4466</p>
         </div>
-    </section>
-
+    </div>
+</section>
     <!-- SERVICIOS PRINCIPALES -->
     <section class="services" id="servicios">
         <div class="container">
@@ -489,47 +490,47 @@
             </div>
             
             <div class="contact-form-section">
-                <h3 data-aos="fade-up" data-aos-delay="100">Formulario de Contacto</h3>
-                <form class="contact-form" id="contactForm" data-aos="fade-right" data-aos-delay="250">
-                    <div class="form-row">
-                        <input type="text" name="nombre" placeholder="Nombre completo" required>
-                        <input type="tel" name="telefono" placeholder="Teléfono" required>
-                    </div>
-                    <div class="form-row">
-                        <input type="email" name="email" placeholder="Email" required>
-                        <select name="dispositivo" id="dispositivoContactSelect" required>
-                            <option value="">Tipo de dispositivo</option>
-                            <option value="Celular">Celular</option>
-                            <option value="Notebook">Notebook</option>
-                            <option value="PC">PC</option>
-                            <option value="Electrodoméstico">Electrodoméstico</option>
-                            <option value="Aire Acondicionado">Aire Acondicionado</option>
-                            <option value="Otro">Otro</option>
-                        </select>
-                    </div>
-                    <input type="text" id="dispositivoContactOtro" name="dispositivoContactOtro" placeholder="¿Qué dispositivo?" style="display: none;" class="otro-input-contact">
-                    <select name="marca" id="marcaContactSelect" required>
-                        <option value="">Marca</option>
-                        <option value="Samsung">Samsung</option>
-                        <option value="iPhone">iPhone</option>
-                        <option value="Motorola">Motorola</option>
-                        <option value="HP">HP</option>
-                        <option value="Dell">Dell</option>
-                        <option value="Lenovo">Lenovo</option>
-                        <option value="LG">LG</option>
-                        <option value="Whirlpool">Whirlpool</option>
-                        <option value="Otra">Otra</option>
-                    </select>
-                    <input type="text" id="marcaContactOtra" name="marcaContactOtra" placeholder="¿Qué marca?" style="display: none;" class="otro-input-contact">
-                    <textarea name="problema" rows="4" placeholder="Contanos qué le pasa a tu equipo..." required></textarea>
-                    <label class="checkbox-label">
-                        <span>Prefiero que me llamen</span>
-                        <input type="checkbox" name="llamar">
-                     
-                    </label>
-                    <button type="submit" class="btn btn-primary btn-large">ENVIAR CONSULTA</button>
-                </form>
-            </div>
+    <h3 data-aos="fade-up" data-aos-delay="100">Formulario de Contacto</h3>
+    <form class="contact-form" id="contactForm" data-aos="fade-right" data-aos-delay="250">
+        <div class="form-row">
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+        </div>
+        <div class="form-row">
+            <input type="email" name="email" placeholder="Email" required>
+            <select name="dispositivo" id="dispositivoContactSelect" required>
+                <option value="">Tipo de dispositivo</option>
+                <option value="Celular">Celular</option>
+                <option value="Notebook">Notebook</option>
+                <option value="PC">PC</option>
+                <option value="Electrodoméstico">Electrodoméstico</option>
+                <option value="Aire Acondicionado">Aire Acondicionado</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        <input type="text" id="dispositivoContactOtro" name="dispositivoContactOtro" placeholder="¿Qué dispositivo?" style="display: none;" class="otro-input-contact">
+        <select name="marca" id="marcaContactSelect" required>
+            <option value="">Marca</option>
+            <option value="Samsung">Samsung</option>
+            <option value="iPhone">iPhone</option>
+            <option value="Motorola">Motorola</option>
+            <option value="HP">HP</option>
+            <option value="Dell">Dell</option>
+            <option value="Lenovo">Lenovo</option>
+            <option value="LG">LG</option>
+            <option value="Whirlpool">Whirlpool</option>
+            <option value="Otra">Otra</option>
+        </select>
+        <input type="text" id="marcaContactOtra" name="marcaContactOtra" placeholder="¿Qué marca?" style="display: none;" class="otro-input-contact">
+        <input id="modeloInput" type="text" name="modelo" placeholder="Modelo (ej: Galaxy S21, Pavilion 15)" required>
+        <textarea name="problema" rows="4" placeholder="Contanos qué le pasa a tu equipo..." required></textarea>
+        <label class="checkbox-label">
+            <span>Prefiero que me llamen</span>
+            <input type="checkbox" name="llamar">
+        </label>
+        <button type="submit" class="btn btn-primary btn-large">ENVIAR CONSULTA</button>
+    </form>
+</div>
             
             <div class="location-section" data-aos="fade-up" data-aos-delay="250">
                 <h3>Ubicación de los Locales </h3>

@@ -1097,6 +1097,9 @@
             margin-bottom: 25px;
             cursor: pointer;
         }
+        #marcaContactSelect, #modeloInput{
+            margin-bottom: 20px;
+        }
 
         .location-section {
             background: white;

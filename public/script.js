@@ -694,6 +694,7 @@ if (quickForm) {
         const templateParams = {
             dispositivo: dispositivo,
             marca: marca,
+            modelo: formData.get('modelo'),
             problema: formData.get('problema'),
             email: formData.get('email')
         };
@@ -749,6 +750,7 @@ if (contactForm) {
             email: formData.get('email'),
             dispositivo: dispositivo,
             marca: marca,
+            modelo: formData.get('modelo'),
             problema: formData.get('problema'),
             llamar: formData.get('llamar') ? 'Sí, prefiere que lo llamen' : 'No'
         };
